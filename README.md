@@ -1,74 +1,6 @@
 # Upd8ed: Aggregated. Upd8ed.
 
-# The MSON Objects
-
-## Description/Overview
-Upd8ed, a news aggregator, is a demonstration of the front-end skills we have learned during our time thus far in coding bootcamp. We have created a one-stop shop by pulling the latest business, entertainment, global, sports news from a variety of sources for the viewer. Upd8ed replicates the functionality of google news with the influence of Reddit.com and Pinterest.com.
-
-[Live URL](https://www.pauldkang.com/news)
-
-## Table of contents
-
-[Description/Overview](#description/overview)
-
-[Technologies Used](#technologies)
-
-[Challenges and Solutions](#challenges-and-solutions)
-
-[GitHub Link](#github-link)
-
-[Code Snippets and Screenshots](#code-snippets-and-screenshots)
-
-[MVP](#mvp-minimal-viable-product)
-
-[Stretch Goals](#stretch-goals)
-
-[Team Members and Contributions](#team-members-and-contributions)
-
-[Project Timeline](#project-timeline)
-
-
-
-## Technologies
-The following languages, frameworks and APIs were used:
-
-  * HTML
-
-  * CSS
-
-  * Javascript
-
-  * Bootstrap
-
-  * React.JS
-
-  * node.JS
-
-  * News API
-
-  * OpenWeatherMap API
-
-  * Yahoo Finance API
-
-
-## Challenges and Solutions
-1.  **Challenge:** Organizing styling and layout when working with ReactDOM, bootstrap, and original CSS. Certain layouts conflicted with how we wanted to style each page using Bootstrap. 
-
-   **Solution:** This was an issue throughout the entire project. We developed unique solutions for each page depending on what best fit it. With the entertainment page, the code was rewritten to allow for easier styling and reduce unecessary white space. 
-
-2. **Challenge:** Search page that allows us to sort through the results. 
-The news api we were using did not have a keyword property in each of their articles. We had 60 news sources, each giving us their current top 10 articles, so we awere able to pull 600+ different articles, but without a way to sort through them.
-
-  **Solution:**
-First we made a global array of all the news sources (60 items), Then we made the ajax calls for each source and added all 600 articles into an array saved in the state of the parent component. The array of articles are then passed to the child component as props, where we built a quick sorting algorithm. From the input box component, we got the user input value and passed it up to its parent where routing happens. As input changes we went to a new route with the input value as the parameter. This input value is then passed all the way down to the child component which contains all the articles. Next, we looped through the titles of the articles looking for matches with whatever words user typed in. Those articles are rendered on the right. At onClick of each article, the article data is sent to the parent component through a parameter in a function, and sent back down to a description component where it displays the image, link to full article, etc.
-
-3. **Challenge:** We wanted to make the entertainment page visually appealing while remaining mobile-friendly at the same time. Originally, the code was written so that all articles were placed into four divs depending on their source. Because differnet sources pulled different amounts of articles, there were some glaring blank spaces at the end of the page for the sources that pulled the least amount of articles. This became especially true when the page was resized to mimic a mobile device. 
-
-   **Solution:** The code was condensed and rewritten for styling purposes. By putting all the articles and their pieces into an array and dividing them up into four divs, we were able to present the same number of articles per div regardless of the number of articles each source pulled in. Additionally, we also put a maximum length on the description of the article. Visually, the number of gaps minimized and were replaced by articles from other news sources. This allowed for easier bootstrap styling.
-
-4. **Challenge:** Slider for sports page. The React Slider component the sports page was cloned from github user akiran. Because of it's pre-written rules, styling it according to our data needs proved very difficult. There were customizable settings, none of which gave us the usability required. Teasing out an effective fix was a hack job with CSS classes that took time, but ultimately we succeeded.
-
-   **Solution:** The React Slider component the sports page was cloned from github user akiran. Because of it's pre-written rules, styling it according to our data needs proved very difficult. There were customizable settings, none of which gave us the usability required. Teasing out an effective fix was a hack job that took time, but ultimately we succeeded by targeting hidden CSS classes and overwriting their value using '!important'. It's not pretty, but it works
+[!News Aggregator Video Demo](news_aggregator_demo.mov)
 
 
 ## GitHub Link
@@ -217,16 +149,16 @@ export default SimpleSlider;
 ```
 
 Entertainment page in tablet view. Notice how the icons in the links in the navbar have now changed to symbols when the size of the device has been reduced.
-![alt](screenshots/NewsProjectScreenshots/entertainmentTabletView.png)
+![tabletview](screenshots/NewsProjectScreenshots/entertainmentTabletView.png)
 
 
 Want to search for specific articles anywhere on the site? Simply start typing in the search box. The articles retrieved from your query will have the word highlighted in its title. We tried searching "Trump" in the wake of the 2017 inauguration. Pretty neat!
 
-![alt](screenshots/NewsProjectScreenshots/searchResults.png)
+![searchresults](screenshots/NewsProjectScreenshots/searchResults.png)
 
 What if you can't remember if you've read this particular article before? No worries. Once you click on an article it turns gray as demonstrated in the first three articles. There is also an option to share this article on your Facebook account.
 
-![alt](screenshots/NewsProjectScreenshots/seenExample.png)
+![seenExample](screenshots/NewsProjectScreenshots/seenExample.png)
 
 Here is where it all happens:
 
