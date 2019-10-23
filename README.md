@@ -1,6 +1,8 @@
 # Upd8ed: Aggregated. Upd8ed.
 
 ![video demo](news_aggregator_demo.gif)
+Video demo of site running locally.
+This repo contains a clone of a project done in 2017 in a group of 4 web development students at Digital Crafts Web Development Bootcamp in Atlanta, GA. This particular clone is an attenpt to refactor the code and update dependencies in order to re-deploy to a live site.
 
 
 ## GitHub Link
@@ -222,46 +224,5 @@ All team members are full stack web development students of the [DigitalCrafts](
 
 ![alt](screenshots/NewsProjectScreenshots/kanban.png)
 
-
-* [Paul Kang](https://github.com/pdwkang) 
-
-**Role:** Dungeon Master - Data wizard - MVP
-
-**Contributions:** Led team to timely completion of project. Built layout of website from scratch with Mason. Designed the top news and business pages to incorporate a continuously updating stocks page. Implemented a dynamic search bar that highlights user inputs and marks "read" articles. Created a mobile-friendly version of Upd8ed utilizing icons in the nav bar when viewing size is reduced. Provided a sharing link to Facebook for all articles. Flawless backup styling throughout website. Updated task cards on Taiga to reflect project progress. Resolved coding challenges team members faced throughout the project. Conceptualized logo.
-
-* [Mason Mahaffey](https://github.com/mason0958) 
-
-**Role:** THE MSON.object idea genius 
-
-**Contributions:** World news page along with region-specific articles. Developed initial project concept with Paul. Outlined with detail the project from beginning to completion. Set up a Taiga account for the group to manage the development process and document issues. Assigned tasks for each team member based on their strengths. Suggestion for features to add. Backend consultant. 
-
-* [Anna Sedlar](https://github.com/annasedlar) 
-
-**Role:** Packers gurl - Sports Data Analyst  
-
-**Contributions:** Created and styled the sports page. Populated sports page with content by working with the external API. Displayed articles in an organized manner and used a slider to display the top 5 articles from a single source, with focus on visual appeal. Updated task cards on Taiga to reflect progress of project. Pitched ideas to style navbar. 
-
-* [Connie Dang](https://github.com/dangconnie) 
-
-**Role:** Wordsmith - Mediator - Task Manager
-
-**Contributions:** Functioning weather widget that takes user input to display the latest weather based on location. Pinterest-inspired entertainment page dsplaying the latest articles from each source as extracted from the API. Planned, wrote and revised README file to incorporate code changes. Developed all-encompassing slogan. Incorporated feedback and made adjustments to design of page. 
-
-**I want to help out!**
-
-* If you would like to report an issue with our code or a suggest a way to improve it, simply contact one of us. We are always looking for ways to improve!* 
-
-If you would like to contribute to our project, we are looking to add the the following:
-
-1. Add categories to include technology, health, nearby events and local news
-
-2. Add more to sports page to include scores, schedules and stats
-
-3. Improve UI/UX (hover effects on articles where appropriate, better CSS styling)
-
-
-
 ## Project Timeline
 * Project start: 1/18/2017
-
-* Project completion: 1/24/2017
