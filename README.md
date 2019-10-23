@@ -1,6 +1,7 @@
 # Upd8ed: Aggregated. Upd8ed.
 
 ![video demo](news_aggregator_demo.gif)
+
 Video demo of site running locally.
 This repo contains a clone of a project done in 2017 in a group of 4 web development students at Digital Crafts Web Development Bootcamp in Atlanta, GA. This particular clone is an attenpt to refactor the code and update dependencies in order to re-deploy to a live site.
 
