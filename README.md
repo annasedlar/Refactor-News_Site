@@ -1,6 +1,6 @@
 # Upd8ed: Aggregated. Upd8ed.
 
-![video demo](news_aggregator_demo.mov)
+![video demo](news_aggregator_demo.gif)
 
 
 ## GitHub Link
