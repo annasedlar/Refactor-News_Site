@@ -1,7 +1,8 @@
 # Upd8ed: Aggregated. Upd8ed.
 
-[!News Aggregator Video Demo](news_aggregator_demo.mov)
-
+<video width="320" height="240" controls>
+  <source src="news_aggregator_demo.mov" type="video/mp4">
+</video>
 
 ## GitHub Link
 [Upd8ed](https://github.com/mason0958/News-Aggregator)
