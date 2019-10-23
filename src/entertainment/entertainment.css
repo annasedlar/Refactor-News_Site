@@ -1,0 +1,27 @@
+.eachArticle{
+	font-size: 16px;
+	font-weight: bold;
+	background-color: white;
+}
+
+.eachArticle:hover{
+	animation: entertainment .4s linear;
+    opacity: 1;
+   	filter: brightness(70%);
+}
+
+@keyframes entertainment{
+	0%{
+		opacity: .4;
+		filter: brightness(100%);
+	}
+	50%{
+		opacity: .5;
+   		filter: brightness(85%);
+	}
+	100%{
+		opacity: 1;
+   		filter: brightness(70%);
+	}
+}
+

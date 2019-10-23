@@ -1,0 +1,108 @@
+body{
+	background-color: #fafafa;
+}
+
+h1{
+	text-align: center;
+}
+
+.slider{
+  color: #000;
+  background-color: #F3F1F4;
+  transition: 1s;
+  transition: ease-in; 
+  text-align: center;
+  margin: auto;
+  position: relative;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.slider img{
+	height: 300px;
+	text-align: center;
+	display: block;
+}
+
+.slider_titles{
+	text-align: center;
+	font-size: 20px;
+	margin: auto;
+	display: block;
+	clear: both;
+}
+
+.slick-list{
+	padding: 0px !important;
+}
+
+.second{
+  margin: auto;
+  text-align: center;
+  background-color:#F3F1F4;
+  border: 2px solid lightgrey;
+  height: 90vh;
+  overflow: scroll
+}
+
+.second_articles{
+  padding-bottom: 10px;
+}
+
+.third{
+	margin: auto;
+	padding-top: 10px;
+	border: 2px solid lightgrey;
+	height: 90vh;
+	overflow: scroll;
+	background-color: #F3F1F4;
+}
+
+.espn-articles{
+	margin: auto;
+}
+
+.nfl_articles{
+	position: relative;
+	margin-left: 10%;
+	background-color: #0099ff;
+}
+
+.sports_page{
+	margin-top:  15px;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.espn_titles{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.big_espn_title{
+	color: black; 
+	font-weight:500;
+	font-size: 30px;
+	text-align: center;
+}
+
+.banner_top{
+	height: 100px;
+	width: 100%;
+	background-color: darkslategray;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.fox_sports{
+	position: relative;
+	margin: auto;
+	margin-bottom: 8px;
+}
+
+
+
+
